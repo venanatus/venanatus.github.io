@@ -11,7 +11,7 @@
   <input type="int" class="a-1">
   <button>Ответ :</button>
   <script>
-      document.querySelector('button').onclick = myClick;
+    ocument.querySelector('button').onclick = myClick;
 
 
 function myClick(){
@@ -22,31 +22,8 @@ function myClick(){
 
  let a = document.getElementsByTagName("input")[0].value
 
- const myArray = a.split(" ",);
- let b = myArray[0];
- let c = myArray[1];
- let d = myArray[2];
- 
-
- if(c=="+"){
-     alert((+b)+(+d));
-    } else if (c=="-"){
-
-        alert((+b)-(+d));
-    } else if (c=="*"){
-
-        alert((+b)*(d));
-    }else if (c=="/"){
-
-        alert((+b)/(+d));
-
-
-    }
-
-
- 
-
- console.log(a);
+ alert(eval(a))
+console.log(a);
 }
 
   </script>
