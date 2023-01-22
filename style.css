@@ -11,7 +11,7 @@ body{
 }
 .box{
     width: 200px;
-    height: 350px;
+    height: auto;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
@@ -80,5 +80,19 @@ button1{
     padding: 10px 40px;
     background-color: rgb(251, 255, 0);
    }
+
+button4{
+    
+    border-radius: 50px 50px 50px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 50px 50px;
+    font-family: Arial Black;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    padding: 10px 40px;
+    background-color: blue;
+   }
+
 
 
